@@ -11,4 +11,11 @@ describe('Casos de teste sobre a rota /usuarios com resultados validos', () =>{
             cy.log(res)
         })
     })
+
+    it.only('Deve retornar o usuário de id 1', () => {
+        Dummy.buscarUsuarioPorId().then(res => {
+            ValidaDummy.validaBuscaDeUsuarioPorId(res)
+            cy.log(res);
+        })
+    })
 })

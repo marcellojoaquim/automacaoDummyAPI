@@ -12,4 +12,13 @@ export default class ValidaDummy {
         expect(res.body).to.haveOwnProperty("skip")
         expect(res.body).to.haveOwnProperty("limit")
     }
+
+    static validaBuscaDeUsuarioPorId(res){
+        expect(res).to.be.a('object')
+        expect(res.body.id).to.be.a('number')
+        expect(res.body).to.haveOwnProperty("firstName")
+        expect(res.body).to.haveOwnProperty("email")
+        expect(res.body).to.haveOwnProperty("age")
+    }
+
 }

@@ -12,4 +12,8 @@ export default class Dummy {
     static burcarUsuarios(){
         return cy.rest('GET', URL_USUARIO);
     }
+
+    static buscarUsuarioPorId() {
+        return cy.rest('GET', `${URL_USUARIO}/1`);
+    }
 }
