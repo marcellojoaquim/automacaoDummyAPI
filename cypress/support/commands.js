@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('rest', (method = 'GET', url = '/', body=null, failOnStatusCode = false) => { 
+    return cy.request ({
+        method:method,
+        url:url,
+        failOnStatusCode:failOnStatusCode,
+        body:body
+    })
+ })
