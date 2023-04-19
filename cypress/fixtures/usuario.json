@@ -1,61 +1,61 @@
 {
-  "id": 7,
-  "firstName": "Oleta",
-  "lastName": "Abbott",
-  "maidenName": "Wyman",
-  "age": 31,
-  "gender": "female",
-  "email": "dpettegre6@columbia.edu",
-  "phone": "+62 640 802 7111",
-  "username": "dpettegre6",
-  "password": "YVmhktgYVS",
-  "birthDate": "1982-02-21",
-  "image": "https://robohash.org/cupiditatererumquos.png",
-  "bloodGroup": "B−",
-  "height": 172,
-  "weight": 78.1,
-  "eyeColor": "Blue",
+  "id": 4,
+  "firstName": "Miles",
+  "lastName": "Cummerata",
+  "maidenName": "Maggio",
+  "age": 49,
+  "gender": "male",
+  "email": "yraigatt3@nature.com",
+  "phone": "+86 461 145 4186",
+  "username": "yraigatt3",
+  "password": "sRQxjPfdS",
+  "birthDate": "1969-01-16",
+  "image": "https://robohash.org/facilisdignissimosdolore.png",
+  "bloodGroup": "B+",
+  "height": 157,
+  "weight": 95.9,
+  "eyeColor": "Gray",
   "hair": {
-    "color": "Chestnut",
-    "type": "Wavy"
+    "color": "Blond",
+    "type": "Very curly"
   },
-  "domain": "ovh.net",
-  "ip": "25.207.107.146",
+  "domain": "homestead.com",
+  "ip": "243.20.78.113",
   "address": {
-    "address": "637 Britannia Drive",
-    "city": "Vallejo",
+    "address": "150 Carter Street",
+    "city": "Manchester",
     "coordinates": {
-      "lat": 38.10476999999999,
-      "lng": -122.193849
+      "lat": 41.76556000000001,
+      "lng": -72.473091
     },
-    "postalCode": "94591",
-    "state": "CA"
+    "postalCode": "06040",
+    "state": "CT"
   },
-  "macAddress": "48:2D:A0:67:19:E0",
-  "university": "Institut Sains dan Teknologi Al Kamal",
+  "macAddress": "03:45:58:59:5A:7B",
+  "university": "Shenyang Pharmaceutical University",
   "bank": {
-    "cardExpire": "10/23",
-    "cardNumber": "3589640949470047",
+    "cardExpire": "07/24",
+    "cardNumber": "3580047879369323",
     "cardType": "jcb",
-    "currency": "Rupiah",
-    "iban": "GI97 IKPF 9DUO X25M FG8D UXY"
+    "currency": "Yuan Renminbi",
+    "iban": "KZ43 658B M6VS TZOU OXSO"
   },
   "company": {
     "address": {
-      "address": "1407 Walden Court",
-      "city": "Crofton",
+      "address": "210 Green Road",
+      "city": "Manchester",
       "coordinates": {
-        "lat": 39.019306,
-        "lng": -76.660653
+        "lat": 41.7909099,
+        "lng": -72.51195129999999
       },
-      "postalCode": "21114",
-      "state": "MD"
+      "postalCode": "06042",
+      "state": "CT"
     },
-    "department": "Product Management",
-    "name": "Schimmel, Wilderman and Orn",
-    "title": "Sales Associate"
+    "department": "Business Development",
+    "name": "Wolff and Sons",
+    "title": "Paralegal"
   },
-  "ein": "29-1568401",
-  "ssn": "478-11-2206",
-  "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5"
+  "ein": "71-3644334",
+  "ssn": "487-28-6642",
+  "userAgent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.17 Safari/537.11"
 }

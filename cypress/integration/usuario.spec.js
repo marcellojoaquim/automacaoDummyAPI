@@ -19,7 +19,7 @@ describe('Casos de teste sobre a rota /usuarios com resultados validos', () =>{
         })
     })
 
-    it("Procurar usuário e salvar em json", ()=>{
+    it.only("Procurar usuário e salvar em json", ()=>{
         let numero = Factory.gerarInteiroAleatorio();
         Dummy.burcarUsuarios().then(res => {
             cy.log(JSON.stringify(res.body.users[numero]))

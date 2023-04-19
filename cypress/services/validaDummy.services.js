@@ -38,7 +38,6 @@ export default class ValidaDummy {
             expect(res.body.users[0].firstName).to.be.eq(nome.nome)
         })
 
-
     }
 
 }
