@@ -22,8 +22,8 @@ export default class Dummy {
         return cy.rest('GET', `${URL_USUARIO}/1`);
     }
 
-    static buscarUsuarioPorNome9(){
-        return cy.rest('GET', `${URL_USUARIO}/search?q=`)
+    static buscarUsuarioPorNome(res){
+        return cy.rest('GET', `${URL_USUARIO}/search?q=${res}`)
     }
 
     static logar(usuario){

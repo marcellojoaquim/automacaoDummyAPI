@@ -27,7 +27,7 @@ describe('Casos de teste sobre a rota /usuarios com resultados validos', () =>{
         })
     })
 
-    it.only('Buscar usuário de um arquivo json e realizar login', () => {
+    it('Buscar usuário de um arquivo json e realizar login', () => {
         cy.fixture('usuario.json').then(json => {
             let user = {
                 username: json.username,
@@ -36,6 +36,18 @@ describe('Casos de teste sobre a rota /usuarios com resultados validos', () =>{
             Dummy.logar(user).then (res => {
                 ValidaDummy.validaLogin(res)
                 Dummy.salvaBearer(res)
+            })
+        })
+    })
+
+    it.only('Deve buscar usuário pelo nome', () => {
+        cy.fixture('usuario.json').then(json => {
+            let name = {
+                name: json.firstName
+            }
+            cy.log(name)
+            Dummy.buscarUsuarioPorNome(name.name).then(res => {
+                ValidaDummy.validaBuscaPorNome(res)
             })
         })
     })
