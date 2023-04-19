@@ -21,4 +21,11 @@ export default class ValidaDummy {
         expect(res.body).to.haveOwnProperty("age")
     }
 
+    static validaLogin(res) {
+        expect(res.body).to.haveOwnProperty("id")
+        expect(res.body.id).to.be.a("number")
+        expect(res.body).to.haveOwnProperty("token")
+        expect(res.body).to.haveOwnProperty('email')
+    }
+
 }

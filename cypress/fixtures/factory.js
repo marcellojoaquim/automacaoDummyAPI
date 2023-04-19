@@ -1,4 +1,4 @@
-const faker = require('@faker-js/faker')
+const faker = require('faker');
 
 
 export default class Factory {
@@ -21,5 +21,9 @@ export default class Factory {
                 "type": "Straight"
             }
         }
+    }
+
+    static gerarInteiroAleatorio(){
+        return faker.datatype.number(20)
     }
 }
